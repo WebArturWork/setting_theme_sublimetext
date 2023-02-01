@@ -1,0 +1,48 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+	"variables":
+	{
+	},
+	"globals":
+	{
+		 "background": "#22262A",
+	},
+	"rules":
+	[
+		{
+			"name": "Comment",
+            "scope": "comment",
+            "foreground": "#72AF7D"
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "#B4CEA6"
+        },
+        {
+            "name": "Function name",
+            "scope": "entity.name.function, keyword.other.name-of-parameter.objc",
+            "foreground": "#29BE94"
+        },
+        {
+            "name": "Function parameter",
+            "scope": "variable.parameter",
+            "foreground": "#E1C99A"
+        },
+        {
+            "name": "Markup tag attribute",
+            "scope": "entity.other.attribute-name",
+            "foreground": "#DCDCDC"
+        },
+        // {
+        //     "name": "Markup: List",
+        //     "scope": "markup.list",
+        //     "foreground": "#E1C99A"
+        // },
+        {
+            "name": "Markup: Attribute Value",
+            "scope": "string.quoted.double.xml, string.quoted.double.html",
+            "foreground": "#D69D85"
+        },
+	]
+}
